@@ -261,8 +261,8 @@ function Form() {
     },
     {
       "id": 12,
-      "name": "NRI / outside Tamil Nadu",
-      "tamil_name": "என். ஆர். ஐ. / தமிழ்நாட்டிற்கு வெளியே"
+      "name": "Environment",
+      "tamil_name": "சுற்றுப்பற சூழல்"
     }
   ]
 

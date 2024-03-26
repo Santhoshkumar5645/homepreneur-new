@@ -105,12 +105,12 @@ function Navbar() {
             tamiltitle: 'Register Now',
             submenu: [],
             type: 'button',
-            link: '/winner',
+            link: '/register',
             href: '',
             id: '',
             lang: ''
         },
-      
+
     ]
     const HandleSidemenu = () => {
         setSidemenu(!sidemenuShow);
@@ -153,13 +153,13 @@ function Navbar() {
                 });
             }
         } else {
-       
+
 
             if (lang === '') {
 
                 if (href !== '') {
-                    window.open(href,'_blank')
-                }else{
+                    window.open(href, '_blank')
+                } else {
 
                     navigate(link)
                 }
