@@ -712,7 +712,7 @@ const HeroSection = () => {
     return (
         <>
             <div className="brand-max-width mx-auto relative ">
-                <div className="grid grid-cols-2 bg-primary h-screen text-white px-14 overflow-hidden items-start">
+                <div className="grid md:grid-cols-2 bg-primary h-screen text-white px-14 overflow-hidden items-start">
                     <div className="flex flex-col justify-center items-start gap-10 pt-10">
                         <div className="flex gap-10">
                             <div className="flex gap-2 items-center">
@@ -731,7 +731,7 @@ const HeroSection = () => {
                             <img src="/assets/svg/arow.svg" alt="" />
                         </button>
                     </div>
-                    <div className="h-screen overflow-hidden flex items-start justify-between gap-2">
+                    <div className="h-screen max-md:hidden overflow-hidden flex items-start justify-between gap-2">
 
                         {/* <div className="flex flex-col gap-1">
                             <div className="w-[200px] h-[300px]  gradient-background rounded-[30px] p-2 group relative">

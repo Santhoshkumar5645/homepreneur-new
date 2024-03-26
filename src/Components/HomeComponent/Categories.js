@@ -130,6 +130,15 @@ function Categories(props) {
             tamilcontent: 'சமூக அக்கறையுடன் வாழ்வியல் முன்னேற்றம் தரும் தொழில் செய்யும் இல்லத்தரசிகள் பங்கு பெறும் இடம் இது.  தொண்டு அமைப்பாளர்கள்,நிதி திரட்டுபவர்கள், சமூக நல தொழில் முனைவோர்,சமூக வளர்ச்சி வல்லுநர்கள், சமூக ஆர்வலர்,சுய உதவி குழுக்கள், என்.ஜி.ஓ(அரசு சாரா நிறுவனங்கள் மற்றும் அமைப்புகள்) போன்ற அமைப்பு சார்ந்தவர்கள் கெளரவிக்கப்படும் சிறந்த பகுதி இது. ',
 
         },
+        {
+            id: 13,
+            categoryname: "Environment",
+            tamilcategoryname: 'சுற்றுச்சூழல்',
+            icon:'assets/svg/categories/P12.svg',
+            whiteicon:'assets/svg/categories/W12.svg',
+            content: "TLorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur beatae modi natus et id esse reiciendis quam vitae amet ipsam.",
+            tamilcontent: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur beatae modi natus et id esse reiciendis quam vitae amet ipsam.',
+        },
     ]
 
     const CategoryHandler = async (id) => {
